@@ -3,8 +3,8 @@
 declare module {package} {
 	interface ProtoBufModel {
 		toArrayBuffer(): ArrayBuffer;
-		//toBuffer(): NodeBuffer;
-		//encode(): ByteBuffer;
+		toBuffer(): Buffer;
+		encode(): ByteBuffer;
 		toBase64(): string;
 		toString(): string;
 	}
